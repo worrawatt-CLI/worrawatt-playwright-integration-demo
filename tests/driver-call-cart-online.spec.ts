@@ -30,7 +30,7 @@ async function driverOpenCart(
   return page;
 }
 
-test('Bottom-Up DRIVER: Driver A -> F Shopping Cart REAL', async ({ browser }) => {
+test('Bottom-Up DRIVER: Driver A -> F Shopping Cart', async ({ browser }) => {
 
   const context = await browser.newContext();
 
